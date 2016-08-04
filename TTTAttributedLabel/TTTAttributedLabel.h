@@ -256,6 +256,11 @@ IB_DESIGNABLE
  */
 @property (nonatomic, strong, readonly) UILongPressGestureRecognizer *longPressGestureRecognizer;
 
+/**
+ Whether the `attributedTruncationToken` is Shown
+ */
+@property (readonly, nonatomic) BOOL isTruncationTokenShown;
+
 ///--------------------------------------------
 /// @name Calculating Size of Attributed String
 ///--------------------------------------------
